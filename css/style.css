@@ -771,7 +771,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px 20px;
   background: 
     linear-gradient(180deg, rgba(9, 11, 14, 0.85) 0%, rgba(9, 11, 14, 0.95) 100%),
-    url('../обзор моей работы/теплица_1.jpg_2K_202607182036.jpeg') center/cover no-repeat;
+    url('../обзор моей работы/теплица_1.jpg_2k_202607182036.jpeg') center/cover no-repeat;
   transition: opacity 0.4s ease, visibility 0.4s ease;
 }
 
