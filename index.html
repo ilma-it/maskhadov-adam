@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <meta name="theme-color" content="#090b0e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Умная Теплица | Портфолио проект Адама Масхадова</title>
+  <meta name="description" content="Инновационный проект автоматизированной теплицы с климат-контролем, умным поливом и интерактивной 3D-моделью.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&family=Montserrat:wght@700;800;900&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       HEADER & NAVIGATION BAR (3 Clean Centered Items)
+       ======================================================================== -->
+  <header class="header">
+    <div class="container nav-container nav-centered">
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link active">Главная</a></li>
+        <li><a href="#gallery" class="nav-link">Галерея</a></li>
+        <li><a href="#model3d" class="nav-link">3D Модель</a></li>
+      </ul>
+
+      <button class="mobile-toggle" aria-label="Открыть меню">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       СТРАНИЦА 1: ГЛАВНАЯ (Объединенный Hero + Эффективность и Графика)
+       ======================================================================== -->
+  <section id="hero" class="main-screen-wrap">
+    <!-- Hero Video Block -->
+    <div class="hero-section hero-clean">
+      <!-- Bright Auto-playing Video Background -->
+      <div class="video-bg-wrap">
+        <video class="video-bg" autoplay muted loop playsinline poster="обзор моей работы/Zoom_out_wide_shot_2K_202607182034.jpeg">
+          <source src="фоновое видео/Начальная_сцена_-_2026-07-18_202607182054.mp4" type="video/mp4">
+          Ваш браузер не поддерживает видеофон.
+        </video>
+        <div class="video-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <h1 class="hero-title gradient-text">УМНАЯ ТЕПЛИЦА</h1>
+
+        <!-- Main Action Button scrolls to Gallery -->
+        <a href="#gallery" class="btn-cta">
+          <span>ПОСМОТРЕТЬ ОБЗОР</span>
+          <div class="btn-icon">
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Блок: ПРИБЫЛЬ И ПОЛЬЗА ВАШЕЙ ТЕПЛИЦЫ -->
+    <div class="benefits-section">
+      <div class="container">
+        <h2 class="benefits-title">ПРИБЫЛЬ И ПОЛЬЗА ВАШЕЙ ТЕПЛИЦЫ</h2>
+
+        <!-- 2 Columns: Экономическая эффективность & Экологическая польза -->
+        <div class="benefits-columns-grid">
+          
+          <!-- Колонка 1: ЭКОНОМИЧЕСКАЯ ЭФФЕКТИВНОСТЬ -->
+          <div class="benefit-group">
+            <h3 class="benefit-group-title">ЭКОНОМИЧЕСКАЯ ЭФФЕКТИВНОСТЬ</h3>
+            <div class="benefit-cards-2x2">
+              <!-- 1 -->
+              <div class="benefit-card-pill">
+                <span class="benefit-num">1.</span>
+                <p class="benefit-text">Урожайность:<br><span class="benefit-highlight">+40%</span></p>
+              </div>
+              <!-- 2 -->
+              <div class="benefit-card-pill">
+                <span class="benefit-num">2.</span>
+                <p class="benefit-text">Снижение затрат на энергию: <span class="benefit-highlight">-30%</span></p>
+              </div>
+              <!-- 3 -->
+              <div class="benefit-card-pill">
+                <span class="benefit-num">3.</span>
+                <p class="benefit-text">Срок окупаемости:<br><span class="benefit-highlight">< 18 мес.</span></p>
+              </div>
+              <!-- 4 -->
+              <div class="benefit-card-pill">
+                <span class="benefit-num">4.</span>
+                <p class="benefit-text">Рост выручки:<br><span class="benefit-highlight">Стабильный поток</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Колонка 2: ЭКОЛОГИЧЕСКАЯ ПОЛЬЗА -->
+          <div class="benefit-group">
+            <h3 class="benefit-group-title">ЭКОЛОГИЧЕСКАЯ ПОЛЬЗА</h3>
+            <div class="benefit-cards-2x2">
+              <!-- 1 -->
+              <div class="benefit-card-pill">
+                <span class="benefit-num">1.</span>
+                <p class="benefit-text">Свежесть круглый год</p>
+              </div>
+              <!-- 2 -->
+              <div class="benefit-card-pill">
+                <span class="benefit-num">2.</span>
+                <p class="benefit-text">Экологически чистый продукт</p>
+              </div>
+              <!-- 3 -->
+              <div class="benefit-card-pill">
+                <span class="benefit-num">3.</span>
+                <p class="benefit-text">Экономия воды:<br><span class="benefit-highlight">до 70%</span></p>
+              </div>
+              <!-- 4 -->
+              <div class="benefit-card-pill">
+                <span class="benefit-num">4.</span>
+                <p class="benefit-text">Минимум отходов</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Аналитика и Графики -->
+        <div class="analytics-panel-wrap">
+          
+          <!-- Левый график: Прогноз окупаемости инвестиций -->
+          <div class="chart-block">
+            <h3 class="chart-block-header">Прогноз окупаемости инвестиций</h3>
+            <div class="bar-chart-container">
+              <!-- Y Axis -->
+              <div class="chart-y-axis">
+                <span>500</span>
+                <span>400</span>
+                <span>300</span>
+                <span>200</span>
+                <span>100</span>
+                <span>0</span>
+              </div>
+              <!-- Plot Area -->
+              <div class="chart-plot-area">
+                <div class="chart-grid-lines">
+                  <div class="grid-line"></div>
+                  <div class="grid-line"></div>
+                  <div class="grid-line"></div>
+                  <div class="grid-line"></div>
+                  <div class="grid-line"></div>
+                  <div class="grid-line"></div>
+                </div>
+                <div class="bars-group">
+                  <div class="bar-col"><div class="bar-pillar" style="height: 18%;" title="1-й период: 80"></div><span class="bar-label-x">1кв</span></div>
+                  <div class="bar-col"><div class="bar-pillar" style="height: 28%;" title="2-й период: 140"></div><span class="bar-label-x">2кв</span></div>
+                  <div class="bar-col"><div class="bar-pillar" style="height: 48%;" title="3-й период: 230"></div><span class="bar-label-x">3кв</span></div>
+                  <div class="bar-col"><div class="bar-pillar" style="height: 38%;" title="4-й период: 175"></div><span class="bar-label-x">4кв</span></div>
+                  <div class="bar-col"><div class="bar-pillar" style="height: 56%;" title="5-й период: 265"></div><span class="bar-label-x">5кв</span></div>
+                  <div class="bar-col"><div class="bar-pillar" style="height: 72%;" title="6-й период: 330"></div><span class="bar-label-x">6кв</span></div>
+                  <div class="bar-col"><div class="bar-pillar" style="height: 82%;" title="7-й период: 380"></div><span class="bar-label-x">7кв</span></div>
+                  <div class="bar-col"><div class="bar-pillar" style="height: 94%;" title="8-й период: 440"></div><span class="bar-label-x">8кв</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Правый график: Вклад в устойчивое развитие (Donut chart) -->
+          <div class="chart-block">
+            <h3 class="chart-block-header">Вклад в устойчивое развитие</h3>
+            <div class="donut-block-content">
+              <div class="donut-svg-wrap">
+                <svg class="donut-svg" viewBox="0 0 100 100">
+                  <circle class="donut-segment" cx="50" cy="50" r="34" stroke="#9ae6b4" stroke-dasharray="35 178" stroke-dashoffset="0"></circle>
+                  <circle class="donut-segment" cx="50" cy="50" r="34" stroke="#48bb78" stroke-dasharray="90 123" stroke-dashoffset="-35"></circle>
+                  <circle class="donut-segment" cx="50" cy="50" r="34" stroke="#56f890" stroke-dasharray="55 158" stroke-dashoffset="-125"></circle>
+                  <circle class="donut-segment" cx="50" cy="50" r="34" stroke="#64748b" stroke-dasharray="33 180" stroke-dashoffset="-180"></circle>
+                </svg>
+              </div>
+              <button class="btn-details-pill" id="btnDetailDonut">Детализация</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       СТРАНИЦА 2: ГАЛЕРЕЯ (Объединенный Видеообзор + Системы + Фотогалерея)
+       ======================================================================== -->
+  <section id="gallery" class="gallery-showcase-section" style="padding-top: 60px;">
+    <div class="container">
+      
+      <!-- Video Showcase Player -->
+      <div class="video-showcase-box">
+        <div class="video-player-wrap">
+          <video class="main-video" controls playsinline poster="обзор моей работы/теплица_1.jpg_2K_202607182036.jpeg">
+            <source src="видео обзор/УМНАЯ ТЕПЛИЦА.mp4" type="video/mp4">
+            Ваш браузер не поддерживает встроенное видео.
+          </video>
+        </div>
+        <div class="video-info-bar">
+          <div class="video-title-group">
+            <h3>Видеопрезентация: «Умная Теплица в Действии»</h3>
+            <p>Демонстрация работы автоматики, датчиков и конструктивных особенностей теплицы</p>
+          </div>
+          <div class="video-tags">
+            <span class="tag-pill"><i class="fa-solid fa-film"></i> 1080p HD</span>
+            <span class="tag-pill"><i class="fa-solid fa-robot"></i> Автоматизация</span>
+            <span class="tag-pill"><i class="fa-solid fa-chart-line"></i> Сенсорика</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Systems & Modules Architecture -->
+      <div class="modules-grid">
+        <div class="module-card">
+          <span class="module-number">01 / СИСТЕМА</span>
+          <h4>Адаптивный микроклимат</h4>
+          <p>Интеллектуальная вентиляция на базе сервоприводов форточек и вытяжных вентиляторов. Реагирует на перепады температур и уровень влажности воздуха.</p>
+          <ul class="module-specs">
+            <li><i class="fa-solid fa-check"></i> Датчики DHT22 / BME280</li>
+            <li><i class="fa-solid fa-check"></i> Сервоприводы форточек</li>
+            <li><i class="fa-solid fa-check"></i> Автоматическая вытяжка</li>
+          </ul>
+        </div>
+
+        <div class="module-card">
+          <span class="module-number">02 / СИСТЕМА</span>
+          <h4>Умное орошение и грунт</h4>
+          <p>Капельное распределение влаги и питательного раствора непосредственно к корневой системе растений, минимизируя расход воды до 60%.</p>
+          <ul class="module-specs">
+            <li><i class="fa-solid fa-check"></i> Емкостные датчики влажности почвы</li>
+            <li><i class="fa-solid fa-check"></i> Электромагнитные клапаны</li>
+            <li><i class="fa-solid fa-check"></i> Защита от перелива</li>
+          </ul>
+        </div>
+
+        <div class="module-card">
+          <span class="module-number">03 / СИСТЕМА</span>
+          <h4>Конструктив и теплоизоляция</h4>
+          <p>Прочный алюминиево-стальной каркас с сотовым поликарбонатом высокой светопроницаемости и термобарьерами для сохранения тепла в ночное время.</p>
+          <ul class="module-specs">
+            <li><i class="fa-solid fa-check"></i> Светопропускание более 86%</li>
+            <li><i class="fa-solid fa-check"></i> Усиленный силовой профиль</li>
+            <li><i class="fa-solid fa-check"></i> Модульная сборка секций</li>
+          </ul>
+        </div>
+
+        <div class="module-card">
+          <span class="module-number">04 / СИСТЕМА</span>
+          <h4>Электроника и мониторинг</h4>
+          <p>Центральный управляющий модуль с гальванической развязкой цепей, резервным питанием и возможностью беспроводной передачи телеметрии.</p>
+          <ul class="module-specs">
+            <li><i class="fa-solid fa-check"></i> Микроконтроллерная база</li>
+            <li><i class="fa-solid fa-check"></i> Блок силовых реле</li>
+            <li><i class="fa-solid fa-check"></i> Автономная работа при сбоях</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ==================== БЛОК 1: ОБЗОР МОЕЙ РАБОТЫ ==================== -->
+      <div class="gallery-block-wrap">
+        <!-- Top Glass Header Pill -->
+        <div class="gallery-header-pill">
+          <h2>Обзор моей работы</h2>
+        </div>
+
+        <!-- Row 1 (2 Photos side by side) -->
+        <div class="gallery-row-2col">
+          <div class="gallery-frame-card" data-title="Общий вид сцены" data-desc="2K РЕНДЕР • ОБЩИЙ ПЛАН">
+            <img src="обзор моей работы/Zoom_out_wide_shot_2K_202607182034.jpeg" alt="Общий вид сцены" loading="lazy">
+            <span class="photo-label-tag">ОБЩИЙ ВИД СЦЕНЫ</span>
+          </div>
+
+          <div class="gallery-frame-card" data-title="Общий вид теплицы" data-desc="2K РЕНДЕР • ФАСАД И ОКРУЖЕНИЕ">
+            <img src="обзор моей работы/теплица_1.jpg_2K_202607182036.jpeg" alt="Общий вид теплицы" loading="lazy">
+            <span class="photo-label-tag">ОБЩИЙ ВИД ТЕПЛИЦЫ</span>
+          </div>
+        </div>
+
+        <!-- Row 2 (2 Photos side by side) -->
+        <div class="gallery-row-2col">
+          <div class="gallery-frame-card" data-title="Макродетали" data-desc="ДЕТАЛИЗАЦИЯ • ДАТЧИКИ И СЕНСОРЫ">
+            <img src="обзор моей работы/Ultra_close-up_specific_detail_202608132024.jpeg" alt="Макродетали" loading="lazy">
+            <span class="photo-label-tag">МАКРОДЕТАЛИ</span>
+          </div>
+
+          <div class="gallery-frame-card" data-title="Интерьер и освещение" data-desc="ВНУТРЕННЕЕ ПРОСТРАНСТВО И ГРЯДКИ">
+            <img src="обзор моей работы/теплица_4.jpg_2K_202607182035.jpeg" alt="Интерьер и освещение" loading="lazy">
+            <span class="photo-label-tag">ИНТЕРЬЕР И ОСВЕЩЕНИЕ</span>
+          </div>
+        </div>
+
+        <!-- Row 3 (1 Full-width Panoramic Photo) -->
+        <div class="gallery-row-full">
+          <div class="gallery-frame-card" data-title="Вид сверху" data-desc="2K РЕНДЕР • АЭРОСЪЕМКА И ПЛАН">
+            <img src="обзор моей работы/Overhead_aerial_view_scene_2K_202607182035.jpeg" alt="Вид сверху" loading="lazy">
+            <span class="photo-label-tag">ВИД СВЕРХУ</span>
+          </div>
+        </div>
+
+        <!-- Quote Typography (Screenshot 1:1) -->
+        <div class="gallery-quote-box">
+          <h3>Презентация пространства через свет, объем и детали.</h3>
+        </div>
+      </div>
+
+      <!-- ==================== БЛОК 2: СЫРАЯ МОДЕЛЬ ==================== -->
+      <div class="gallery-block-wrap">
+        <!-- Top Glass Header Pill -->
+        <div class="gallery-header-pill">
+          <h2>Сырая модель</h2>
+        </div>
+
+        <!-- 2x2 Grid for Raw 3D Model Frames -->
+        <div class="gallery-grid-2x2">
+          <!-- Frame 1 -->
+          <div class="gallery-frame-card" data-title="Каркас и резервуар" data-desc="3D МОДЕЛИРОВАНИЕ • ОБЩИЙ КАРКАС">
+            <img src="сырая модель/теплица 1.jpg" alt="Каркас и резервуар" loading="lazy">
+            <span class="photo-label-tag">КАРКАС И РЕЗЕРВУАР</span>
+          </div>
+
+          <!-- Frame 2 -->
+          <div class="gallery-frame-card" data-title="Внутренние стеллажи" data-desc="3D МОДЕЛИРОВАНИЕ • ИНТЕРЬЕР КАРКАСА">
+            <img src="сырая модель/теплица 4.jpg" alt="Внутренние стеллажи" loading="lazy">
+            <span class="photo-label-tag">СТЕЛЛАЖИ И ПРОХОД</span>
+          </div>
+
+          <!-- Frame 3 -->
+          <div class="gallery-frame-card" data-title="Фасадный контур" data-desc="3D МОДЕЛИРОВАНИЕ • ФРОНТАЛЬНЫЙ ВИД">
+            <img src="сырая модель/теплица3.jpg" alt="Фасадный контур" loading="lazy">
+            <span class="photo-label-tag">ФАСАДНЫЙ КОНТУР</span>
+          </div>
+
+          <!-- Frame 4 -->
+          <div class="gallery-frame-card" data-title="Конструкция кровли" data-desc="3D МОДЕЛИРОВАНИЕ • ИЗОМЕТРИЯ">
+            <img src="сырая модель/теплица 2.jpg" alt="Конструкция кровли" loading="lazy">
+            <span class="photo-label-tag">КОНСТРУКЦИЯ И ОПОРЫ</span>
+          </div>
+        </div>
+
+        <!-- Quote Typography (Screenshot 1:1) -->
+        <div class="gallery-quote-box">
+          <h3>Фундамент проекта: чистая геометрия и точные пропорции</h3>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       СТРАНИЦА 3: 3D МОДЕЛЬ (Frame 3.svg)
+       ======================================================================== -->
+  <section id="model3d" class="section-3d">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 20px;">
+        <span class="section-tag">// ИНТЕРАКТИВНЫЙ 3D ПРОСМОТР</span>
+        <h2 class="section-title gradient-text">Инженерная 3D Модель</h2>
+        <p class="section-subtitle">Вращайте, приближайте, переключайте ракурсы и изучайте полигональную структуру теплицы</p>
+      </div>
+
+      <!-- 3D Viewport Box -->
+      <div class="viewport-3d-wrapper" id="viewport3dWrap">
+        <!-- WebGL Canvas -->
+        <canvas id="canvas3d"></canvas>
+
+        <!-- Placeholder / Start Screen before 3D is loaded -->
+        <div id="placeholder3d" class="placeholder-3d-overlay">
+          <div class="placeholder-3d-card">
+            <div class="placeholder-3d-icon">
+              <i class="fa-solid fa-cube"></i>
+            </div>
+            <h3 class="placeholder-3d-title">Интерактивная 3D Сцена</h3>
+            <p class="placeholder-3d-desc">3D модель не запускается автоматически, чтобы ваше устройство не нагревалось и работало без задержек.</p>
+            <div class="placeholder-3d-badges">
+              <span class="placeholder-badge"><i class="fa-solid fa-file-lines"></i> GLB / GLTF</span>
+              <span class="placeholder-badge"><i class="fa-solid fa-hard-drive"></i> ~21.5 МБ</span>
+              <span class="placeholder-badge"><i class="fa-solid fa-bolt"></i> Three.js PBR</span>
+            </div>
+            <button id="btnOpen3d" class="btn-open-3d" aria-label="Открыть 3D модель">
+              <i class="fa-solid fa-play"></i>
+              <span>Открыть 3D модель</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div id="loading3d" class="loading-3d-overlay" style="display: none;">
+          <div class="spinner"></div>
+          <div id="loadingStatus3d" class="loading-text">Загрузка 3D сцены...</div>
+          <div class="progress-bar-bg">
+            <div id="progressBar3d" class="progress-bar-fill"></div>
+          </div>
+        </div>
+
+        <!-- Top HUD Badges -->
+        <div class="hud-info-badge" id="modelStats" style="display: none;">
+          Загрузка <span>GLB / GLTF 3D</span>...
+        </div>
+
+        <div class="hud-hint-badge" id="hudHintBadge" style="display: none;">
+          <i class="fa-solid fa-computer-mouse"></i>
+          <span>ЛКМ — вращение | ПКМ — панорама | Колесо — зум</span>
+        </div>
+
+        <!-- Top-Right Close 3D Button -->
+        <button id="btnClose3dTop" class="btn-close-3d" style="display: none;" title="Закрыть 3D модель и разгрузить устройство">
+          <i class="fa-solid fa-power-off"></i>
+          <span>Закрыть 3D</span>
+        </button>
+
+        <!-- Bottom Controls Bar (Frame 3 Design) -->
+        <div class="controls-3d-bar" id="controls3dBar" style="display: none;">
+          <!-- Auto Rotate Toggle -->
+          <button id="btnRotate3d" class="ctrl-btn active" title="Автоматическое вращение">
+            <i class="fa-solid fa-rotate"></i>
+            <span>360° Вращение</span>
+          </button>
+
+          <div class="ctrl-divider"></div>
+
+          <!-- Camera Presets -->
+          <button class="ctrl-btn active" data-preset="iso" title="Изометрический вид">
+            <i class="fa-solid fa-cube"></i>
+            <span>3D</span>
+          </button>
+          <button class="ctrl-btn" data-preset="top" title="Вид сверху">
+            <i class="fa-solid fa-arrows-up-to-line"></i>
+            <span>Сверху</span>
+          </button>
+          <button class="ctrl-btn" data-preset="front" title="Вид спереди">
+            <i class="fa-solid fa-image"></i>
+            <span>Фасад</span>
+          </button>
+          <button class="ctrl-btn" data-preset="side" title="Вид сбоку">
+            <i class="fa-solid fa-border-all"></i>
+            <span>Сбоку</span>
+          </button>
+
+          <div class="ctrl-divider"></div>
+
+          <!-- Zoom Controls -->
+          <button id="btnZoomIn" class="ctrl-btn" title="Приблизить">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <button id="btnZoomOut" class="ctrl-btn" title="Отдалить">
+            <i class="fa-solid fa-minus"></i>
+          </button>
+
+          <!-- Light 360 Controls -->
+          <button id="btnLightRotate3d" class="ctrl-btn" title="Вращение света на 360°">
+            <i class="fa-solid fa-sun"></i>
+            <span>Свет 360°</span>
+          </button>
+
+          <div class="light-slider-wrap" title="Угол падения света">
+            <i class="fa-solid fa-lightbulb"></i>
+            <input type="range" id="lightAngleSlider" min="0" max="360" value="45" class="light-range-input" aria-label="Угол света">
+            <span id="lightAngleVal" class="light-angle-text">45°</span>
+          </div>
+
+          <div class="ctrl-divider"></div>
+
+          <!-- Wireframe Mode -->
+          <button id="btnWireframe3d" class="ctrl-btn" title="Режим полигональной сетки">
+            <i class="fa-solid fa-network-wired"></i>
+            <span>Сетка</span>
+          </button>
+
+          <!-- Reset Camera -->
+          <button id="btnReset3d" class="ctrl-btn" title="Сбросить ракурс">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </button>
+
+          <!-- Fullscreen -->
+          <button id="btnFullscreen3d" class="ctrl-btn" title="Полноэкранный режим">
+            <i class="fa-solid fa-expand"></i>
+          </button>
+
+          <div class="ctrl-divider"></div>
+
+          <!-- Close 3D Model Button -->
+          <button id="btnClose3dBottom" class="ctrl-btn btn-ctrl-close" title="Закрыть 3D модель и разгрузить систему">
+            <i class="fa-solid fa-power-off"></i>
+            <span>Закрыть</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       LIGHTBOX MODAL FOR IMAGES
+       ======================================================================== -->
+  <div id="lightboxModal" class="lightbox-modal">
+    <button id="lightboxClose" class="lightbox-close" aria-label="Закрыть">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <button id="lightboxPrev" class="lightbox-nav lightbox-prev" aria-label="Предыдущее фото">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button id="lightboxNext" class="lightbox-nav lightbox-next" aria-label="Следующее фото">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+    <div class="lightbox-content">
+      <img id="lightboxImg" class="lightbox-img" src="" alt="Увеличенное фото">
+      <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3 class="gradient-text">УМНАЯ ТЕПЛИЦА</h3>
+          <p>Инженерный проект и портфолио • Автор: Адам Масхадов</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#hero" class="footer-link">Главная</a>
+          <a href="#gallery" class="footer-link">Галерея</a>
+          <a href="#model3d" class="footer-link">3D Модель</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Проект «Умная Теплица». Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       SCRIPTS: Three.js, Loaders & Custom JS
+       ======================================================================== -->
+  <!-- Three.js Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <!-- Three.js OrbitControls -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <!-- Three.js Loaders (GLTF & Collada) -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/ColladaLoader.js"></script>
+
+  <!-- Application Scripts -->
+  <script src="js/three-app.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
